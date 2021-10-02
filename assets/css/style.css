@@ -270,3 +270,18 @@ a{
 #qst-type option{
     padding: 20px !important;
 }
+
+
+#address-requirements h3{
+    font-size: 500;
+}
+
+.address-headding{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.address-req-para{
+    font-weight: 500 !important;
+}

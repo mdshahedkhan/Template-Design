@@ -9,6 +9,13 @@ function ImageReader(image, place){
     }
 }
 
+$('.copy-link').click(function(){
+    const ShortText = $('#short-link');
+    ShortText.select();
+    document.execCommand("copy");
+    return console.log(true);
+})
+
 $('#image-one').on('change', function(){
     ImageReader(this, '#'+'image-view-one');
 })

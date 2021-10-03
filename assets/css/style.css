@@ -58,6 +58,19 @@ a{
 }
 
 
+.btn-outline-green{
+    border: 2px solid var(--primary-btn);
+    color: var(--primary-btn);
+    font-weight: 500;
+}
+
+.btn-outline-green:hover{
+    background: var(--primary-btn);
+    color: #fff;
+}
+
+
+
 .bg-light-gray{
     background-color: var(--bg-light);
 }
@@ -71,6 +84,11 @@ a{
 
 .text-green{
     color: var(--primary-btn);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 
@@ -381,3 +399,134 @@ a{
 .input__radio:checked + .radio_radio::after{
     transform: scale(1);
 }
+
+/* ===================== Publiush Page ================*/
+
+.social-media-link{
+    margin-top: 30px;
+}
+.social-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-link .social-item{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-media-link .social-item a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 5px;
+}
+.social-media-link .social-item .facebook{
+    background: #3d5999;
+    color: #fff;
+}
+.social-media-link .social-item .twitter{
+    background: #55acee;
+    color: #fff;
+}
+.social-media-link .social-item .linkedin{
+    background: #0076b2;
+    color: #fff;
+}
+
+.copy-link{
+    cursor: pointer;
+}
+
+#your-gig-is-now-live h3{
+    font-size: 35px;
+    color: #00668c;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.text-section{
+    text-transform: uppercase;
+}
+.text-section .form{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.text-section .learn{
+    margin: 0 !important;
+}
+.dot{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-btn);
+}
+
+.text-next-label-para{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.text-next-label{
+    padding: 10px 0;
+}
+
+
+
+/*================= Items Section ================*/
+
+#your-gig-is-now-live .card{
+    box-shadow: 0 0 0 1px var(--bg-light);
+}
+
+.items-section ul{
+    display: flex;
+    grid-template-columns: repeat(5, 1rf);
+    grid-column-gap: 10px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.items-section li p{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+
+.items-section li{
+    text-align: center;
+}
+.items-section li a{
+    text-align: center;
+}
+
+.items-section li a .icon{
+    width: 50px;
+    height: 45px;
+    background-color: #e5faf3;
+    color: var(--primary-btn);
+    text-align: center;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.items-section li a{
+    width: 100px;
+    margin: auto;
+}
+
+.items-section li a:hover{
+    color: #000;
+    font-weight: 600;
+}
+

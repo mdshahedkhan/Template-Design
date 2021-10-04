@@ -680,11 +680,61 @@ svg.radial-progress text {
     color: #000;
     border-bottom: 3px solid #593cfb;
 }
-.active a{
-    color: #0003;
+.active .nav-link{
+    color: #000 !important;
     font-weight: 700;
 }
 
 .main-menu {
     padding-bottom: 0;
+}
+
+
+.border-none{
+    padding: 0;
+}
+
+/*============= Clearners Home Page =============*/
+
+.user-img-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bg-secondary-light{
+    background: #f4f4f4;
+}
+.earn-card{
+    padding: 20px 0;
+    box-shadow: 5px 5px 10px 1px #bbbbbb57;
+}
+
+.earn-card i{
+    font-size: 30px;
+    color: #54a887;
+}
+
+#Cleaners-homepage .row .col-md-4 .col-md-2{
+    padding: 0 0 0 10px;
+}
+#Cleaners-homepage .row .col-md-4 .col-md-2 img{
+    width: 40px;
+}
+#Cleaners-homepage .row .col-md-4 h3 {
+    padding: 3px 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+#Cleaners-homepage .row .col-md-4 .col-md-10 p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#Cleaners-homepage .row .col-md-4 a{
+    margin-right: 17px;
+    color: #4a73e8;
+}
+#Cleaners-homepage .row .col-md-4  {
+    width: 30.333333%;
 }

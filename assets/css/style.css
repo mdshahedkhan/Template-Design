@@ -412,6 +412,10 @@ svg.radial-progress text {
     font-weight: normal;
 }
 
+.stape-menu{
+    padding: 0;
+}
+
 .stape-menu .stape-item {
     display: inline-block;
     padding: 0 20px;
@@ -1054,9 +1058,7 @@ sup {
 .review-list .user-name{
     font-size: 12px;
 }
-.review-list .response-box{
-    
-}
+
 .review-list .response-box .comment-text{
     font-weight: 400;
     font-size: 15px;
@@ -1145,7 +1147,7 @@ sup {
 }
 
 #tax-form .section-stap-tax-form ul li {
-    margin-right: 30px !important;
+    margin: 15px 0;
 }
 #tax-form .section-stap ul li:first-child{
     margin-right: 0;
@@ -1158,16 +1160,32 @@ sup {
     background: var(--primary-btn);
 }
 
-
-.stape-two{
-    width: 35px;
-    height: 35px;
-    background: var(--primary-btn);
+.circle{
+    width: 45px;
+    height: 45px;
     display: inline-block;
     text-align: center;
-    line-height: 35px;
+    line-height: 40px;
     font-weight: 700;
-    color: #fff;
     border-radius: 50%;
-    border: 1px solid var(--primary-btn);
+}
+
+
+.stape-two{
+    background: var(--primary-btn);
+    color: #fff;
+    border: 3px solid var(--primary-btn);
+}
+.stape-three{
+    border: 3px solid var(--primary-btn);
+    color: var(--primary-btn);
+}
+.stape-one{
+    background: #aab8c2;
+    color: #fff;
+}
+
+
+.tax-stape-item{
+    color: #b5bdc4;
 }

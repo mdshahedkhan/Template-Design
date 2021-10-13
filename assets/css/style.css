@@ -1051,6 +1051,31 @@ sup {
     color: rgb(187, 187, 187);
 }
 
+.review-list .user-name{
+    font-size: 12px;
+}
+.review-list .response-box{
+    
+}
+.review-list .response-box .comment-text{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.review-list .response-box .your-response{
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 0 0 0 1px rgb(206, 205, 205);
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.review-list .response-box .your-response h6{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .ml-auto{
     margin-left: auto;
 }
@@ -1099,4 +1124,50 @@ sup {
 }
 .review-list .row .fa-star{
     color: var(--btnPurple);
+}
+
+
+/* Tax Form */
+#tax-form .para{
+    font-weight: normal;
+    color: var(--lightBlack);
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+#tax-form .text-bould{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.back-btn{
+    color: var(--text-light);
+}
+
+#tax-form .section-stap-tax-form ul li {
+    margin-right: 30px !important;
+}
+#tax-form .section-stap ul li:first-child{
+    margin-right: 0;
+}
+
+#tax-form .section-stap ul li a span{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: var(--primary-btn);
+}
+
+
+.stape-two{
+    width: 35px;
+    height: 35px;
+    background: var(--primary-btn);
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid var(--primary-btn);
 }

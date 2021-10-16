@@ -91,6 +91,13 @@ a {
     color: #fff;
 }
 
+.btn-next {
+    background-color: var(--primary-btn);
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
 
 
 .bg-light-gray {
@@ -412,7 +419,7 @@ svg.radial-progress text {
     font-weight: normal;
 }
 
-.stape-menu{
+.stape-menu {
     padding: 0;
 }
 
@@ -1037,34 +1044,36 @@ ul li {
     margin-top: 10px;
 }
 
-.text-bould{
+.text-bould {
     font-weight: 600;
 }
 
-.avg-ratings h3{
+.avg-ratings h3 {
     font-weight: 700;
     font-size: 45px;
 }
-.avg-ratings span{
+
+.avg-ratings span {
     font-size: 18px;
     color: var(--btnPurple);
 }
+
 sup {
     top: -1.4em;
     font-size: 18px;
     color: rgb(187, 187, 187);
 }
 
-.review-list .user-name{
+.review-list .user-name {
     font-size: 12px;
 }
 
-.review-list .response-box .comment-text{
+.review-list .response-box .comment-text {
     font-weight: 400;
     font-size: 15px;
 }
 
-.review-list .response-box .your-response{
+.review-list .response-box .your-response {
     font-weight: 400;
     font-size: 15px;
     box-shadow: 0 0 0 1px rgb(206, 205, 205);
@@ -1073,28 +1082,32 @@ sup {
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.review-list .response-box .your-response h6{
+
+.review-list .response-box .your-response h6 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.ml-auto{
+.ml-auto {
     margin-left: auto;
 }
 
-.menu-compliments{
+.menu-compliments {
     margin: 30px 0 0 0;
     padding: 0;
 }
+
 .menu-compliments li {
     display: block;
 }
-.menu-compliments li h6{
+
+.menu-compliments li h6 {
     font-weight: 600;
     text-transform: uppercase;
     color: var(--text-light);
 }
-.menu-compliments li p{
+
+.menu-compliments li p {
     font-size: 14px;
     font-weight: normal;
     color: var(--text-light);
@@ -1106,7 +1119,7 @@ sup {
     border-radius: 50%;
 }
 
-.review-list .row .col-md-9 p{
+.review-list .row .col-md-9 p {
     padding: 0;
     margin: 7px 0 10px 0;
 }
@@ -1117,50 +1130,58 @@ sup {
     font-size: 14px;
 }
 
-.review-list .review .col-md-1{
-    width: 11.666667%!important;
+.review-list .review .col-md-1 {
+    width: 11.666667% !important;
 }
-.review-list .review{
+
+.review-list .review {
     border-bottom: 1px solid #dadbdd;
     margin: 15px 20px;
 }
-.review-list .row .fa-star{
+
+.review-list .row .fa-star {
     color: var(--btnPurple);
 }
 
 
 /* Tax Form */
-#tax-form .para{
+#tax-form .para {
     font-weight: normal;
     color: var(--lightBlack);
     letter-spacing: 1.5px;
     text-transform: capitalize;
 }
-#tax-form .text-bould{
+
+#tax-form .text-bould {
     font-size: 23px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-.back-btn{
+.back-btn {
     color: var(--text-light);
 }
 
 #tax-form .section-stap-tax-form ul li {
     margin: 15px 0;
 }
-#tax-form .section-stap ul li:first-child{
+
+.section-stap-tax-form .stape-menu .tax-stape-item {
+    margin-right: 50px !important;
+}
+
+#tax-form .section-stap ul li:first-child {
     margin-right: 0;
 }
 
-#tax-form .section-stap ul li a span{
+#tax-form .section-stap ul li a span {
     width: 35px;
     height: 35px;
     display: inline-block;
     background: var(--primary-btn);
 }
 
-.circle{
+.circle {
     width: 45px;
     height: 45px;
     display: inline-block;
@@ -1171,21 +1192,127 @@ sup {
 }
 
 
-.stape-two{
+.stape-two {
     background: var(--primary-btn);
     color: #fff;
     border: 3px solid var(--primary-btn);
 }
-.stape-three{
+
+.stape-three {
     border: 3px solid var(--primary-btn);
     color: var(--primary-btn);
 }
-.stape-one{
+
+.stape-one {
     background: #aab8c2;
     color: #fff;
 }
 
+.active-stape {
+    color: var(--primary-btn) !important;
+}
 
-.tax-stape-item{
+.tax-stape-item {
     color: #b5bdc4;
+}
+
+/*================= Tax Form Flug ============*/
+.flug .flug-box {
+    display: flex;
+    color: var(--primary-btn);
+}
+
+.flug .flug-box img {
+    width: 40px;
+    height: 25px !important;
+    margin-right: 10px !important;
+}
+
+.flug-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: var(--text-light);
+}
+
+.showcase p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin: 0;
+    padding: 5px;
+}
+
+.showcase h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.showcase .border-bottom-black {
+    border-bottom: 2px solid #000;
+}
+
+.showcase .border-left-right {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.showcase{
+    margin-bottom: 20px;
+}
+
+#tax-form .name-title{
+    border-bottom: 3px dashed #1d9fbf;
+    width: 250px;
+    margin-top: 5px;
+    padding: 0;
+}
+#tax-form .name-title p{
+    padding: 0;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#tax-form .name-title p a{
+    text-decoration: underline;
+}
+
+#tax-form .description-condition{
+    display: flex;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-top: 15px;
+}
+#tax-form .description-condition .col-md-3{
+    padding: 10px 15px;
+}
+#tax-form .tax-text-box p{
+    margin: 2px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+#tax-form .description-condition .col-md-9{
+    border-right: 2px solid #333;
+    padding: 10px 5px;
+}
+
+#tax-form .description-condition p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+#tax-form .description-condition .select-box{
+    margin: 10px 25px;
+}
+#tax-form .description-condition label{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
 }

@@ -1445,9 +1445,12 @@ sup {
 /** Settings  */
 #settings h2 {
     font-weight: 700;
+    font-size: 45px;
+    margin: 0 0 30px 0;
+    padding: 0;
 }
 
-#settings .col-md-7 p {
+#settings .col-md-9 p {
     font-weight: normal;
 }
 
@@ -1474,7 +1477,13 @@ sup {
 }
 
 
-#settings .search-ability i{
+#settings .search-ability i {
     font-size: 16px;
     color: var(--lightBlack);
+}
+
+.paragraph{
+    font-size: 14px;
+    color: var(--lightBlack);
+    font-weight: normal;
 }

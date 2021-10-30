@@ -53,3 +53,10 @@ $('svg.radial-progress').each(function( index, value ) {
     }
   });
 }).trigger('scroll');
+
+$(function () {
+    $("#datepicker").datepicker({
+        autoclose: true,
+        todayHighlight: true
+    }).datepicker('update', new Date());
+});

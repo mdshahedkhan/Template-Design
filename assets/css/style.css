@@ -10,6 +10,8 @@
     --grayText: #404145;
     --qst-btn-color: #4a73e8;
     --btnPurple: #593cfb;
+    --primary-text-color: #593cfb;
+    --primary-text-colorHover: #735cf6;
 }
 
 .navbar-brand {
@@ -24,6 +26,16 @@ header,
 .breadcrumbs-area,
 header .navbar-collapse ul li a {
     font-weight: 500;
+}
+
+.btn_outline_green {
+    background-color: var(--primary-btn);
+    color: #fff;
+}
+
+.btn_outline_green:hover {
+    background-color: var(--primary-btn-hover);
+    color: #fff;
 }
 
 /*================= Global CSS ============*/
@@ -98,7 +110,13 @@ a {
     padding: 8px 15px;
 }
 
+.text-purple {
+    color: var(--primary-text-color);
+}
 
+.text-purple:hover {
+    color: var(--primary-text-colorHover);
+}
 
 .bg-light-gray {
     background-color: var(--bg-light);
@@ -472,7 +490,7 @@ svg.radial-progress text {
     display: block;
 }
 
-.type>div {
+.type > div {
     margin-top: 10px;
 }
 
@@ -507,7 +525,7 @@ svg.radial-progress text {
     transform: scale(0);
 }
 
-.input__radio:checked+.radio_radio::after {
+.input__radio:checked + .radio_radio::after {
     transform: scale(1);
 }
 
@@ -603,7 +621,7 @@ svg.radial-progress text {
 
 .items-section ul {
     display: flex;
-    grid-template-columns: repeat(5, 1rf);
+    grid-template-columns: repeat(5, 1 rf);
     grid-column-gap: 10px;
     margin: 0;
     padding: 0;
@@ -1002,7 +1020,7 @@ svg.radial-progress text {
     font-size: 12px;
 }
 
-.ranking li>span {
+.ranking li > span {
     color: #62646a;
     white-space: nowrap;
     margin-left: 12px;
@@ -1261,58 +1279,202 @@ sup {
     border-right: 2px solid #000;
 }
 
-.showcase{
+.showcase {
     margin-bottom: 20px;
 }
 
-#tax-form .name-title{
+#tax-form .name-title {
     border-bottom: 3px dashed #1d9fbf;
     width: 250px;
     margin-top: 5px;
     padding: 0;
 }
-#tax-form .name-title p{
+
+#tax-form .name-title p {
     padding: 0;
     margin: 5px 0;
     font-weight: 500;
     font-size: 14px;
     text-transform: capitalize;
 }
-#tax-form .name-title p a{
+
+#tax-form .name-title p a {
     text-decoration: underline;
 }
 
-#tax-form .description-condition{
+#tax-form .description-condition {
     display: flex;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     margin-top: 15px;
 }
-#tax-form .description-condition .col-md-3{
+
+#tax-form .description-condition .col-md-3 {
     padding: 10px 15px;
 }
-#tax-form .tax-text-box p{
+
+#tax-form .tax-text-box p {
     margin: 2px 0;
     padding: 0;
     font-weight: 500;
     font-size: 14px;
 }
-#tax-form .description-condition .col-md-9{
+
+#tax-form .description-condition .col-md-9 {
     border-right: 2px solid #333;
     padding: 10px 5px;
 }
 
-#tax-form .description-condition p{
+#tax-form .description-condition p {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;
 }
-#tax-form .description-condition .select-box{
+
+#tax-form .description-condition .select-box {
     margin: 10px 25px;
 }
-#tax-form .description-condition label{
+
+#tax-form .description-condition label {
     font-size: 12px;
     font-weight: 400;
     line-height: 1.8;
+}
+
+#tax-form .state-area {
+    display: flex;
+}
+
+#tax-form .state-area .col-md-8 {
+    padding: 20px 20px 10px 0;
+    border-right: 2px solid #000;
+}
+
+#tax-form .state-area .col-md-4 {
+    padding: 20px;
+}
+
+#tax-form .state-area label {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#tax-form .state-area p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#tax-form .state-area {
+    border-bottom: 2px solid #000;
+}
+
+#tax-form .list-account label {
+    padding: 10px 0;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+}
+
+#tax-form .box-part {
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#tax-form .box-part {
+    display: flex;
+    justify-content: start;
+    justify-items: self-start;
+    align-items: center;
+}
+
+#tax-form .box-part .big-box p {
+    margin: 0 10px !important;
+}
+
+.text-bold {
+    font-weight: 700 !important;
+}
+
+.border-none {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.font-weight-none {
+    font-weight: 500;
+}
+
+.certification-menu li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+}
+
+#tax-form .border-none {
+    border-bottom: 0;
+}
+
+#tax-form .cfs-intraductions p {
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+#tax-form .cfs-menu {
+    margin-top: 30px;
+}
+
+#tax-form .cfs-menu p {
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1 !important;
+}
+
+
+/** Settings  */
+#settings h2 {
+    font-weight: 700;
+}
+
+#settings .col-md-7 p {
+    font-weight: normal;
+}
+
+
+#settings .save_and_check_btn {
+    margin-top: 60px;
+}
+
+#settings label span {
+    color: #787878 !important;
+    font-weight: normal;
+}
+
+#settings .toggle-group .btn-primary {
+    background: var(--btnPurple);
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20rem;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20rem;
+}
+
+
+#settings .search-ability i{
+    font-size: 16px;
+    color: var(--lightBlack);
 }

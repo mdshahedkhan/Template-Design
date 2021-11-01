@@ -139,7 +139,6 @@ li {
 }
 
 
-
 /* Animated Radial Circle */
 
 
@@ -253,8 +252,6 @@ svg.radial-progress text {
     color: #000000;
     font-weight: 700;
 }
-
-
 
 
 /*============ Text Box ===========*/
@@ -612,7 +609,6 @@ svg.radial-progress text {
 }
 
 
-
 /*================= Items Section ================*/
 
 #your-gig-is-now-live .card {
@@ -666,7 +662,6 @@ svg.radial-progress text {
     color: #000;
     font-weight: 600;
 }
-
 
 
 .content .headding {
@@ -1482,8 +1477,128 @@ sup {
     color: var(--lightBlack);
 }
 
-.paragraph{
+.paragraph {
     font-size: 14px;
     color: var(--lightBlack);
     font-weight: normal;
+}
+
+
+/*===========Extra Page============*/
+
+
+.btn-primary-second {
+    background: #1dbf73;
+    color: #fff;
+}
+
+.btn-primary-second:hover {
+    background: #00a157;
+    color: #fff;
+}
+
+#main-nav .nav-link {
+    display: block;
+    padding: .5rem 10px;
+    color: var(--lightBlack);
+}
+
+#main-nav .nav-link:hover {
+    display: block;
+    padding: .5rem 10px;
+    color: #000;
+}
+
+
+#main-nav .user-img-circle {
+    margin-right: 20px;
+}
+
+#main-nav .user-img-circle span {
+    width: 40px;
+    height: 40px;
+    background: #1dbf73;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+
+#top-menu .group-list {
+    border-bottom: 2px solid #0033;
+    padding: 3px;
+}
+
+#top-menu ul li {
+    padding: 0 5px;
+}
+
+#top-menu ul li a {
+    color: #707070;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#top-menu .group-list li .active {
+    border-color: var(--primary-btn);
+    color: var(--primary-btn);
+}
+
+#top-menu .content-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#top-menu .content-box > div {
+    padding: 150px 0;
+    color: #8e9198;
+    font-weight: 500;
+}
+
+#top-menu .content-box h3 {
+    color: #404145;
+    font-weight: 700;
+}
+
+#top-menu .content-box .username {
+    color: var(--primary-btn);
+}
+
+#top-menu .content-box a {
+    color: var(--primary-btn);
+    font-weight: 700;
+}
+
+#top-menu .content-box img {
+    width: 120px;
+    margin: 20px;
+}
+
+#top-menu .order-box h5 {
+    padding: 0 0 10px 0;
+}
+
+.sidebar-content-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#top-menu .sidebar-content-box .in-process {
+    padding: 0 6px;
+    background: #4a73e8;
+    display: inline-block;
+    color: #fff;
+}
+
+#top-menu .sidebar-content-box .order img {
+    width: 40%
+}
+
+#top-menu .sidebar-content-box .order .order-title p{
+    font-size: 14px;
+}
+#top-menu .sidebar-content-box .order .order-title {
+    width: 60%;
 }

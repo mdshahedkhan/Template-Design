@@ -54,30 +54,326 @@
         <div class="row mt-5">
             <div class="col-md-8">
                 <ul class="group-list">
-                    <li><a href="">Activity</a></li>
-                    <li><a href="">Details</a></li>
-                    <li><a href="" class="active">Requirements</a></li>
-                    <li><a href="">Delivery</a></li>
+                    <li><a href="#" id="activity" class="active">Activity</a></li>
+                    <li><a href="#" id="details">Details</a></li>
+                    <li><a href="#" id="requirement">Requirements</a></li>
+                    <li><a href="#" id="delivery">Delivery</a></li>
                 </ul>
-                <div class="content-box mt-5 d-flex bg-white align-items-center justify-content-center ">
-                    <div class="text-center">
-                        <img src="./../assets/img/icons3.jpg" alt="Icon">
-                        <h3><span class="username">hamidur_rahman</span> has all the requirements</h3>
-                        <p>The seller stated you provided all the requirements needed. To view your prlor <br>
-                            conversation, view your <a href="">inbox</a>
-                        </p>
+                <!--Activity Box-->
+                <div id="activity-box">
+                    <div class="shadow-sm bg-white mt-5 p-4 font-weight-none"
+                         style="border-left: 3px solid #4a73e8; color: #76787d; border-radius: 3px">
+                        <h5 class="text-bold" style="font-size: 23px">Your order Is now In the works</h5>
+                        <p class="m-0 p-0">We notified hamidur__rahman about your order.</p>
+                        <p class="m-0 p-0">You should recelve your delivery by <strong>Oct 3, 11:12 AM</strong>.</p>
+                    </div>
+                    <div class="shadow-sm bg-white mt-4 font-weight-none">
+                        <p class="today">Today</p>
+                        <div class="col-md-12">
+                            <div class="row offset-1 ">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #eeecff; text-align: center; line-height: 50px; color: #9188e0">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <p class="mt-2 mx-3">You placed the order <small style="font-size: 13px"><em>Sep 26,
+                                        11:11 AM</em></small></p>
+                                    <hr class="m-3 p-0" style="background: #a6a6a6">
+                                </div>
+                            </div>
+                            <div class="row offset-1">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #d7f7e9; text-align: center; line-height: 50px; color: #4ece92">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <p class="mt-2 mx-3">Your Order Started<small style="font-size: 13px"><em>Sep 26,
+                                        11:11 AM</em></small></p>
+                                    <hr class="m-3 p-0" style="background: #a6a6a6">
+                                </div>
+                            </div>
+                            <div class="row offset-1 ">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #d7f7e9; text-align: center; line-height: 50px; color: #4ece92">
+                                        <i class="fa fa-clock"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <p class="mt-2 mx-3">Your delivery date was updated to October 3 <small
+                                            style="font-size: 13px"><em>Sep 26, 11:11 AM</em></small></p>
+                                    <hr class="m-3 p-0" style="background: #a6a6a6">
+                                </div>
+                            </div>
+                            <div class="row offset-1 ">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #d7f7e9; text-align: center; line-height: 50px; color: #4ece92">
+                                        <img src="../assets/img/team/01.jpg" width="50px" height="50px"
+                                             style="border-radius: 50%;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <p class="mt-2 mx-3"><strong class="username">hamidur__rahman</strong> <small
+                                            style="font-size: 13px"><em>Sep 26, 11:11 AM</em></small></p>
+                                    <p class="mx-3">Thanks for your order</p>
+                                    <a href="#" class="mx-3 p-0 text-whitesmoke"><small><i class="fa fa-flag"></i>
+                                        Report</small></a>
+                                    <hr class="m-3 p-0" style="background: #a6a6a6">
+                                </div>
+                            </div>
+                            <div class="row offset-1 ">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #e4e5e7; text-align: center; line-height: 50px; color: #ffffff; font-size: 20px">
+                                        C
+                                    </div>
+                                </div>
+                                <div class="col-md-11">
+                                    <p class="mt-2 mx-3"><strong>Me</strong> <em style="font-size: 13px">Sep 26, 11:11
+                                        AM</em></p>
+                                    <hr class="m-3 p-0" style="background: #a6a6a6">
+                                </div>
+                            </div>
+                            <div class="row offset-1 ">
+                                <div class="col-md-1">
+                                    <div class="icons"
+                                         style="width: 50px; height: 50px; border-radius: 50%; background: #d7f7e9; text-align: center; line-height: 50px; color: #4ece92;font-size: 20px">
+                                        C
+                                    </div>
+                                </div>
+                                <div class="col-md-10 mb-3">
+                                    <div class="col-md-11 d-flex">
+                                        <p class="mt-2 mx-3"><strong class="username">Have something to share with
+                                            hamidur_rahman?</strong></p>
+                                        <p class="mt-2">
+                                            <span style="color: #ababab">Local time: <strong style="color: #4b4b4b">12:19 AM</strong></span>
+                                        </p>
+                                    </div>
+                                    <label class="mx-3">
+                                        <textarea class="form-control" id="" cols="100" rows="10"
+                                                  placeholder="Type your message here..."></textarea>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="file-input">
+                                                <input type="file" name="file-input" id="file-input"
+                                                       class="file-input__input"/>
+                                                <label class="file-input__label" for="file-input">
+                                                    <i class="fas fa-paperclip text-whitesmoke"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 text-lg-end">
+                                            <a href="#" class="btn btn-send text-green text-bold">Send</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-whitesmoke text-center mt-3 font-weight-none">View <span class="text-primary">conversation</span>
+                        with hamidur__rahman in your inbox</p>
+                </div>
+                <!--Details Box-->
+                <div id="details-box" style="display: none">
+                    <div class="mt-5  p-4 bg-white shadow-sm">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="text-bold">I will create professional...</h5>
+                                <p class="name-and-date">Ordered from <span class="username">hamidur__rahman</span> |
+                                    Delivery date <strong>Oct 3, 11:12 AM</strong></p>
+                            </div>
+                            <div class="col-md-4 total-price">
+                                <p>TOTAL PRICE</p>
+                                <h4>&#36;105.50</h4>
+                            </div>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <p class="order-number">Order number <strong>#FO61E593992C8</strong></p>
+                        <hr class="m-0 p-0">
+                        <div class="card mt-4" style="background: #f5f5f5">
+                            <div class="row p-3">
+                                <div class="col-md-6">
+                                    <h6><i class="fa fa-file"></i>YOUR ORDER <i class="date"></i>Sep 26, 11:10: AM</h6>
+                                </div>
+                                <div class="col-md-6 text-lg-end">
+                                    <a href="#" download="invoice.pdf"
+                                       class="text-green text-bold text-decoration-underline">Download Invoice</a>
+                                </div>
+                            </div>
+                            <hr style="background: #a6a6a6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class="mx-2">ITEM</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="text-lg-end">
+                                        <li>QTY</li>
+                                        <li>DURATION</li>
+                                        <li>PRICE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body bg-white text-whitesmoke font-weight-none p-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5 class="text-black text-bold">Premium</h5>
+                                        <p>Fix issues and create now web application for personal and business web
+                                            site</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="text-lg-end">
+                                            <li style="margin-right: 30px">1</li>
+                                            <li>7 Days</li>
+                                            <li>&#36;100</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="order-items">
+                                    <li><i class="fa fa-check"></i>10 Page</li>
+                                    <li><i class="fa fa-check"></i>Design Customization</li>
+                                    <li><i class="fa fa-check"></i>Content Upload</li>
+                                    <li><i class="fa fa-check"></i>Responsive Design</li>
+                                    <li><i class="fa fa-check"></i>Source Code</li>
+                                    <li><i class="fa fa-check"></i>5 Revision</li>
+                                </ul>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-6">
+                                    <h6 class="mx-2">Subtotal</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="text-lg-end">
+                                        <li>&#36;100</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-6">
+                                    <h6 class="mx-2">SERVICE FEE</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="text-lg-end">
+                                        <li>&#36;5.50</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class="m-0 p-0" style="background: #a6a6a6">
+                            <div class="row p-2">
+                                <div class="col-md-6">
+                                    <h6 class="mx-2">TOTAL</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="text-lg-end">
+                                        <li>&#36;105.50</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-whitesmoke font-weight-none text-center mt-3">If something appears to be missing
+                            or incorrect, please contact our <a href="#" class="text-primary">Customer Support
+                                Specialists.</a></p>
+                    </div>
+                </div>
+                <div id="requirements-box" style="display: none">
+                    <div class="content-box mt-5 d-flex bg-white align-items-center justify-content-center">
+                        <div class="text-center">
+                            <img src="./../assets/img/icons3.jpg" alt="Icon">
+                            <h3><span class="username">hamidur_rahman</span> has all the requirements</h3>
+                            <p>The seller stated you provided all the requirements needed. To view your prlor <br>
+                                conversation, view your <a href="">inbox</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="delivery-box" style="display: none">
+                    <div class="content-box mt-5 d-flex bg-white align-items-center justify-content-center">
+                        <div class="text-center">
+                            <img src="./../assets/img/icons4.jpg" alt="Icon">
+                            <h3>the best things are worth the wait</h3>
+                            <p><span class="username">hamidur_rahman</span> should delivery this order by Oct 3. 11:12
+                                AM</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mt-5">
-                <div class="sidebar-content-box p-3 order-box bg-white">
-                    <h5>Order Details</h5>
-                    <div class="order d-flex">
-                        <img src="../assets/img/order-img.jpg" alt="img">
-                        <div class="order-title">
-                            <p>i will create professional...</p>
-                            <p class="in-process">In Process</p>
+            <div class="col-md-3" style="margin: 80px 0 0 20px">
+                <div class="sidebar-content-box order-box bg-white">
+                    <div class="p-3">
+                        <h5>Order Details</h5>
+                        <div class="order d-flex">
+                            <img src="../assets/img/order-img.jpg" alt="img">
+                            <div class="order-title">
+                                <p>i will create professional...</p>
+                                <p class="in-process">In Process</p>
+                            </div>
                         </div>
+                        <div class="order-details">
+                            <ul class="order-details-menu">
+                                <li><a href="#">Ordered From</a></li>
+                                <li><a href="#">Delivery date</a></li>
+                                <li><a href="#">Total price</a></li>
+                                <li><a href="#">Order number</a></li>
+                            </ul>
+                            <ul class="order-details-menu text-lg-end">
+                                <li><a href="#" class="text-lowercase text-green">hamidur__rahman</a></li>
+                                <li><a href="#">Oct 3, 11:12 M</a></li>
+                                <li><a href="#">&#36;105.50</a></li>
+                                <li><a href="#">#FO61E593992C8</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="p-3">
+                        <h5>Track Order
+                            <!--<button class="text-lg-end"><i class="fas fa-chevron-down"></i></button>--></h5>
+                        <div class="order-details gap-list">
+                            <ul class="order-details-menu font-weight-none">
+                                <li><span class="check-circle"><i class="fa fa-check"></i></span>Order Placed</li>
+                                <li><span class="check-circle"><i class="fa fa-check"></i></span>Requirements Submitted
+                                    <span class="qts-icon"><i class="fas fa-question-circle"></i></span></li>
+                                <li><span class="check-circle processing"><i class="fa fa-check"></i></span>Revision
+                                    Delivery
+                                </li>
+                                <li><span class="check-circle inactive"><i class="fa fa-check"></i></span>Revision
+                                    Delivery
+                                </li>
+                                <li><span class="check-circle inactive"><i class="fa fa-check"></i></span>Complete Order
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-content-box order-box bg-white">
+                    <div class="p-3 mt-5">
+                        <h5>What's next for your website</h5>
+                        <ul class="list-group related-items">
+                            <li class="list-group-item d-flex justify-content-center">
+                                <a href="#" class="title-area">Search Engine Optimization (SEO)</a>
+                                <img src="./../assets/img/img001.jpg" alt="">
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center">
+                                <a href="#" class="title-area">Website Design</a>
+                                <img src="./../assets/img/img002.jpg" alt="">
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center">
+                                <a href="#" class="title-area">Website Content</a>
+                                <img src="./../assets/img/img003.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="notice-board">
+                    <div class="p-3 notice-border">
+                        <p>Have questions? we have the answers.</p>
+                        <p>Check out the <a href="" class="text-primary">FAQs</a>.</p>
+                        <p>Have any issues with your order?</p>
+                        <p>Visit the <a href="#" class="text-primary">Resolution Center</a></p>
                     </div>
                 </div>
             </div>

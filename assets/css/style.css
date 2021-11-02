@@ -130,7 +130,7 @@ a {
 }
 
 .text-green {
-    color: var(--primary-btn);
+    color: var(--primary-btn) !important;
 }
 
 li {
@@ -1549,7 +1549,7 @@ sup {
 }
 
 #top-menu .content-box {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
 }
 
 #top-menu .content-box > div {
@@ -1582,7 +1582,7 @@ sup {
 }
 
 .sidebar-content-box {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
 }
 
 #top-menu .sidebar-content-box .in-process {
@@ -1590,15 +1590,214 @@ sup {
     background: #4a73e8;
     display: inline-block;
     color: #fff;
+    font-size: 13px !important;
 }
 
 #top-menu .sidebar-content-box .order img {
-    width: 40%
+    width: 30%;
+    height: 60px;
+    margin-right: 15px;
 }
 
-#top-menu .sidebar-content-box .order .order-title p{
-    font-size: 14px;
+#top-menu .sidebar-content-box .order .order-title p {
+    font-size: 13px;
 }
+
 #top-menu .sidebar-content-box .order .order-title {
     width: 60%;
+}
+
+#top-menu .order-details {
+    display: flex;
+    /*grid-template-columns: repeat(1fr, 50px);*/
+}
+
+#top-menu .order-details .order-details-menu {
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu .order-details .order-details-menu li {
+    padding: 3px 0;
+    margin: 5px 0;
+}
+
+#top-menu .order-details .order-details-menu li a {
+    text-transform: capitalize;
+}
+
+#top-menu .order-details .order-details-menu h5 div {
+    text-align: left;
+    display: inline;
+}
+
+#top-menu .order-details .order-details-menu .check-circle {
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    border: 3px solid var(--primary-btn);
+    border-radius: 50%;
+    color: #fff;
+    background: var(--primary-btn);
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#top-menu .order-details .order-details-menu .font-weight-none {
+    margin: 10px 0;
+}
+
+#top-menu .order-details .order-details-menu .processing {
+    background: #fff;
+    border: 3px solid var(--primary-btn);
+}
+
+#top-menu .order-details .order-details-menu .inactive .qts-icon i {
+    font-size: 12px !important;
+    color: #62646a !important;
+}
+
+#top-menu .order-details .order-details-menu .inactive {
+    border: 3px solid #a4a6ab;
+    background: #fff;
+    color: #fff;
+}
+
+
+#top-menu .sidebar-content-box .related-items li {
+    border-right: 0;
+    border-left: 0;
+    text-align: center;
+    align-items: center;
+}
+
+#top-menu .sidebar-content-box .related-items img {
+    width: 100px;
+    height: 80px;
+    margin-left: auto;
+}
+
+.title-area {
+    font-weight: 700 !important;
+    color: #4f5054 !important;
+    padding: 0 3px !important;
+}
+
+
+#top-menu .notice-board .notice-border {
+    margin: 40px 0;
+    border: 2px solid #b9c9f7;
+    background: #f0f4ff;
+    border-radius: 5px;
+}
+
+#top-menu .notice-board .notice-border p {
+    font-weight: 500;
+    padding: 0;
+    margin: 5px 0;
+    color: #7a7d85;
+}
+
+#top-menu #activity-box .name-and-date {
+    color: var(--lightBlack);
+}
+
+.username {
+    color: var(--primary-btn);
+}
+
+.name-and-date {
+    font-weight: normal;
+}
+
+#top-menu .total-price {
+    text-align: right;
+    color: var(--lightBlack);
+}
+
+#top-menu .total-price p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#top-menu .total-price h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+#top-menu .order-number {
+    color: var(--lightBlack);
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#top-menu .card .row .col-md-6 h6 {
+    font-weight: 700;
+    color: #555555;
+}
+#top-menu .card .row .col-md-6 h6 i{
+    margin-right: 10px;
+}
+#top-menu .card .row .col-md-6 h6 span{
+    font-size: 12px;
+}
+
+.text-whitesmoke{
+    color: #868686;
+}
+
+#top-menu .order-items{
+    padding: 0;
+    margin: 0;
+}
+#top-menu .order-items li{
+    display: block;
+    font-weight: 500;
+}
+#top-menu .order-items li i{
+    margin-right: 10px;
+}
+
+#top-menu .today{
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 3px 15px 3px 40px;
+    font-weight: 700;
+    border-radius: 0 30px 30px 0;
+    margin-top: 30px;
+    text-align: right;
+    color: #4d4d4d;
+}
+
+
+/*File Input*/
+
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input__label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 12px;
+    color: #000;
+}
+
+.file-input__label svg {
+    height: 16px;
+    margin-right: 4px;
 }
